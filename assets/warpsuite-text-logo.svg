@@ -35,11 +35,6 @@
   <text x="300" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="500" 
         fill="#ffffff" text-anchor="middle" opacity="0.9">Teleportation Plugin</text>
   
-  <!-- Version badge -->
-  <rect x="520" y="15" width="60" height="25" rx="12.5" fill="#ffffff" opacity="0.2"/>
-  <text x="550" y="32" font-family="Arial, sans-serif" font-size="12" font-weight="bold" 
-        fill="#ffffff" text-anchor="middle">v2.0</text>
-  
   <!-- Decorative elements -->
   <g opacity="0.1">
     <circle cx="50" cy="30" r="20" fill="none" stroke="#ffffff" stroke-width="2"/>
