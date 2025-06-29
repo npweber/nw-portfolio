@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const heroDescription = document.querySelector('.hero-description');
 
     if (heroTitle) {
-        const originalTitle = "Hi, I'm Nathan.";
+        const originalTitle = "Hi, I'm Nathan Weber.";
         setTimeout(() => {
             typeWriter(heroTitle, originalTitle, 50);
         }, 500);
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if(heroDescription) {
-        const originalDescription = "I produce quality SpigotMC plugins for the community.";
+        const originalDescription = "I produce quality Minecraft plugins for the community.";
         setTimeout(() => {
             typeWriter(heroDescription, originalDescription, 50);
         }, 6000);
