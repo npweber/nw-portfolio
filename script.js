@@ -148,14 +148,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if(heroSubtitle) {
-        const originalSubtitle = "I'm a Contract Minecraft Mod & Plugin Developer.";
+        const originalSubtitle = "I'm an Independent Minecraft Plugin Developer.";
         setTimeout(() => {
             typeWriter(heroSubtitle, originalSubtitle, 50);
         }, 3000);
     }
 
     if(heroDescription) {
-        const originalDescription = "I produce quality Minecraft mods and plugins for the community.";
+        const originalDescription = "I produce quality Minecraft plugins and am available for hire.";
         setTimeout(() => {
             typeWriter(heroDescription, originalDescription, 50);
         }, 6000);
