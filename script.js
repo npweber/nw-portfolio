@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if(heroSubtitle) {
-        const originalSubtitle = "I'm an Independent Minecraft Plugin Developer.";
+        const originalSubtitle = "I'm a hardworking Software Engineer.";
         setTimeout(() => {
             typeWriter(heroSubtitle, originalSubtitle, 50);
         }, 3000);
