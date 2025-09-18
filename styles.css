@@ -463,6 +463,29 @@ section {
     margin-bottom: 1.5rem;
 }
 
+.experience-description ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.experience-description li {
+    color: #6b7280;
+    padding: 0.25rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.experience-description li::before {
+    content: '•';
+    color: #2563eb;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+}
+
 .experience-description.quote {
     font-weight: bold;
 }
