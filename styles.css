@@ -553,7 +553,7 @@ section {
     padding: 0 20px;
     margin: 2rem auto 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2rem;
     align-items: center;
     justify-content: center;
@@ -566,6 +566,10 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
     border: 1px solid #e5e7eb;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -573,29 +577,31 @@ section {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
-    height: 200px;
+.project-header {
+    height: 80px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 2rem;
 }
 
-.project-placeholder {
-    font-size: 4rem;
-    color: rgba(255, 255, 255, 0.3);
+.project-title {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .project-content {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
-.project-content h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: #1f2937;
-}
 
 .project-content p {
     color: #6b7280;
@@ -622,6 +628,8 @@ section {
 .project-links {
     display: flex;
     gap: 1rem;
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 .project-link {
@@ -795,6 +803,15 @@ section {
 
     .project-card {
         margin: 0 10px;
+    }
+    
+    .project-header {
+        height: 70px;
+        padding: 0 1rem;
+    }
+    
+    .project-title {
+        font-size: 1.1rem;
     }
 }
 
