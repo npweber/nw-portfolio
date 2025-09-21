@@ -137,7 +137,6 @@ function typeWriter(element, text, speed = 100) {
 document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero-title');
     const heroSubtitle = document.querySelector('.hero-subtitle');
-    const heroDescription = document.querySelector('.hero-description');
 
     if (heroTitle) {
         const originalTitle = "Hi, I'm Nathan Weber.";
@@ -147,17 +146,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if(heroSubtitle) {
-        const originalSubtitle = "I'm a hardworking Software Engineer.";
+        const originalSubtitle = "I'm a part-time Bedrock Developer.";
+
         setTimeout(() => {
             typeWriter(heroSubtitle, originalSubtitle, 50);
         }, 3000);
-    }
-
-    if(heroDescription) {
-        const originalDescription = "I produce quality Minecraft plugins and am available for hire.";
-        setTimeout(() => {
-            typeWriter(heroDescription, originalDescription, 50);
-        }, 6000);
     }
 });
 
