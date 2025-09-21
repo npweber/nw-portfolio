@@ -11,33 +11,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <div class="sidebar-profile">
+                    <img src="assets/profile.jpg" alt="Nathan Weber" class="sidebar-profile-image">
+                </div>
+                <h2 class="sidebar-title">Nathan Weber</h2>
+                <p class="sidebar-subtitle">Portfolio</p>
+            </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#experience" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Experience</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-folder"></i>
+                        <span>Projects</span>
+                    </a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="sidebar-footer">
+                <div class="footer-social">
+                    <a href="https://github.com/npweber" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/npweber" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
         </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -48,11 +79,6 @@
                 <p class="hero-description"></p>
                 <div class="hero-buttons">
                     <a href="#experience" class="btn btn-primary">View My Work</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <img src="assets/profile.jpg" alt="Nathan Weber" class="profile-image">
                 </div>
             </div>
         </div>
@@ -455,20 +481,8 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-social">
-                    <a href="https://github.com/npweber" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/npweber" class="social-link"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <p>&copy; 2025 Nathan Weber. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html> 
