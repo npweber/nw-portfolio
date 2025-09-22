@@ -304,16 +304,16 @@ body {
 }
 
 .btn-secondary {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
+    background: #fbbf24;
+    color: #1f2937;
+    border: 2px solid #fbbf24;
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #1f2937;
+    background: #f59e0b;
+    border-color: #f59e0b;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
 }
 
 /* Section Styles */
